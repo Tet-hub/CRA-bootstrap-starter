@@ -14,6 +14,7 @@ const MultiCards = () => {
               variant="top"
               src={defaultImage}
               style={{ height: "12rem", width: "12rem" }}
+              className="img-responsive"
             />
           </div>
           <Card.Body>
@@ -37,7 +38,7 @@ const MultiCards = () => {
               variant="top"
               src={imageCard}
               style={{ height: "12rem", width: "100%" }}
-              className="p-2"
+              className="img-responsive"
             />
           </div>
           <Card.Body>
@@ -61,6 +62,7 @@ const MultiCards = () => {
               variant="top"
               src={defaultImage}
               style={{ height: "12rem", width: "12rem" }}
+              className="img-responsive"
             />
           </div>
           <Card.Body>

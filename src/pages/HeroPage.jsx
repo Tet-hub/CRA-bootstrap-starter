@@ -3,7 +3,7 @@ import Carousel from "../components/Carousel";
 
 const HeroPage = () => {
   return (
-    <div className="container mb-3">
+    <div className="container min-vh-100">
       <Carousel />
     </div>
   );
